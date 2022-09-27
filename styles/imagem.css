@@ -1,0 +1,32 @@
+.imagem{
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem__titulo{
+    margin: auto;
+    font-size: 14px;
+    padding: 0.5em 1em;
+    border-radius: 16px;
+    background: rgba(142, 36, 36, 0.05);
+}
+
+.imagem__subtitulo{
+    padding: 0.5em 0;
+}
+
+.imagem__texto{
+    font-size: 20px;
+    text-align: center;
+}
+
+.imagem__img{
+    padding-top: 5em;
+    width: 100%;
+}
+
+.imagem__titulo:hover{
+    transition: 1s all;
+    border: 1px solid var(--vermelho-principal);
+}

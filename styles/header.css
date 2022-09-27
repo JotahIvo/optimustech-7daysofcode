@@ -1,0 +1,18 @@
+.cabeçalho{
+    padding: 5em 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabeçalho__slogan{
+    padding: 0.5em 0;
+}
+
+.cabeçalho__texto{
+    font-size: 20px;
+    width: 75%;
+    text-align: center;
+    color: var(--cinza-escuro);
+}

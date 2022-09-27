@@ -1,0 +1,25 @@
+.comentario{
+    margin: 0 7em 5em 7em;
+    background: rgba(196, 25, 25, 0.03);
+    text-align: center;
+    padding: 2em;
+}
+
+.comentario__titulo{
+    font-size: 14px;
+    padding: 1em;
+}
+
+.comentario__texto{
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--preto-principal);
+}
+
+.comentario__img{
+    padding: 1em;
+}
+
+.comentario__nome{
+    color: var(--preto-principal);
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url("styles/nav.css");
+@import url("styles/header.css");
+@import url("styles/numeros.css");
+@import url("styles/imagem.css");
+@import url("styles/vagas.css");
+@import url("styles/comentario.css");
+@import url("styles/rodape.css");
+
+:root{
+    --fonte-principal: "Inter";
+    --bg-cor: white;
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --vermelho-principal: #8E2424;
+    --preto-principal: #101828;
+    --branco-secundario: #F9FAFB;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    background-color: var(--bg-cor);
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-claro);
+}
+
+h2{
+    color: var(--vermelho-principal);
+    text-align: center;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    color: var(--preto-principal);
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: center;
+}
